@@ -1,4 +1,4 @@
-/* Estilos Gerais */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,22 +6,22 @@
 }
 
 body {
-  background-color: #E8F5E9; /* Cor de fundo suave */
+  background-color: #E8F5E9; 
   font-family: 'Arial', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  flex-direction: column; /* Organiza a página verticalmente */
+  flex-direction: column; 
   padding: 20px;
   text-align: center;
 }
 
-/* Container do Formulário (agora sem card) */
+
 .login-container {
-  background-color: transparent; /* Removendo o fundo */
+  background-color: transparent; 
   width: 100%;
-  max-width: 500px; /* Largura maior para se destacar na tela */
+  max-width: 500px; 
   padding: 40px;
   text-align: center;
   display: flex;
@@ -29,15 +29,15 @@ body {
   align-items: center;
 }
 
-/* Título */
+
 .login-container h1 {
-  font-size: 36px; /* Título maior */
-  color: #388E3C; /* Cor verde suave */
+  font-size: 36px; 
+  color: #388E3C; 
   margin-bottom: 20px;
   font-weight: 600;
 }
 
-/* Formulário */
+
 .login-form {
   display: flex;
   flex-direction: column;
@@ -45,57 +45,57 @@ body {
   align-items: center;
 }
 
-/* Campo de Input */
+
 .login-form input {
   padding: 15px;
   margin: 15px 0;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 18px;
-  width: 80%; /* Mais largo, ocupando uma maior área */
+  width: 80%; 
   color: #333;
   transition: border-color 0.3s ease-in-out;
 }
 
 .login-form input:focus {
-  border-color: #388E3C; /* Borda verde ao focar */
+  border-color: #388E3C; 
   outline: none;
 }
 
-/* Botão */
+
 .login-form button {
   padding: 15px;
-  background-color: #388E3C; /* Verde moderno */
+  background-color: #388E3C; 
   color: white;
   font-size: 18px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 80%; /* Botão mais largo */
+  width: 80%; 
 }
 
 .login-form button:hover {
-  background-color: #2C6E2F; /* Cor mais escura no hover */
+  background-color: #2C6E2F; 
 }
 
-/* Responsividade */
+
 @media (max-width: 480px) {
   body {
-    padding: 10px; /* Menos padding para telas pequenas */
+    padding: 10px; 
   }
 
   .login-container {
-    padding: 20px; /* Menos padding no container em dispositivos pequenos */
-    max-width: 90%; /* Container ocupa mais da tela em dispositivos pequenos */
+    padding: 20px; 
+    max-width: 90%; 
   }
 
   .login-container h1 {
-    font-size: 28px; /* Tamanho do título reduzido para telas pequenas */
+    font-size: 28px;
   }
 
   .login-form input, .login-form button {
-    width: 90%; /* Inputs e botão mais largos em dispositivos pequenos */
+    width: 90%; 
   }
 }
 img{
