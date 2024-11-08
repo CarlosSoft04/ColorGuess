@@ -1,0 +1,104 @@
+/* Estilos Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E8F5E9; /* Cor de fundo suave */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column; /* Organiza a página verticalmente */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container do Formulário (agora sem card) */
+.login-container {
+  background-color: transparent; /* Removendo o fundo */
+  width: 100%;
+  max-width: 500px; /* Largura maior para se destacar na tela */
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título */
+.login-container h1 {
+  font-size: 36px; /* Título maior */
+  color: #388E3C; /* Cor verde suave */
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Formulário */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+/* Campo de Input */
+.login-form input {
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 80%; /* Mais largo, ocupando uma maior área */
+  color: #333;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input:focus {
+  border-color: #388E3C; /* Borda verde ao focar */
+  outline: none;
+}
+
+/* Botão */
+.login-form button {
+  padding: 15px;
+  background-color: #388E3C; /* Verde moderno */
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 80%; /* Botão mais largo */
+}
+
+.login-form button:hover {
+  background-color: #2C6E2F; /* Cor mais escura no hover */
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  body {
+    padding: 10px; /* Menos padding para telas pequenas */
+  }
+
+  .login-container {
+    padding: 20px; /* Menos padding no container em dispositivos pequenos */
+    max-width: 90%; /* Container ocupa mais da tela em dispositivos pequenos */
+  }
+
+  .login-container h1 {
+    font-size: 28px; /* Tamanho do título reduzido para telas pequenas */
+  }
+
+  .login-form input, .login-form button {
+    width: 90%; /* Inputs e botão mais largos em dispositivos pequenos */
+  }
+}
+img{
+  width: 150px;
+  height: 150px;
+}
