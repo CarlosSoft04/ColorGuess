@@ -34,10 +34,9 @@
 3. Abra o arquivo `index.html` no seu navegador para jogar.
 
 ## Deploy:
-Este projeto está hospedado no [Netlify](https://color-guess.netlify.app), onde você pode jogar diretamente no seu navegador.
+Este projeto nao esta hospedado, infelizmente.
 
 ## Contribuições:
 Contribuições são bem-vindas! Se você tiver uma ideia para melhorar o jogo ou encontrar algum bug, sinta-se à vontade para abrir um **issue** ou enviar um **pull request**.
 
-## Licença:
-Este projeto está licenciado sob a [MIT License](LICENSE).
+
